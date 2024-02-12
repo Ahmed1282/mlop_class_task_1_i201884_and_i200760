@@ -1,11 +1,36 @@
-# MLOPs-Class-Activity-1
-1. Created a sample project with no base code "src/app.py"
-2. Created 4 new branches i201884 (source dev), i200760 (source dev) , dev (source main) and test (source main) with command "git checkout -b 'name'"
-3. switch to i201884 with command "git checkout i201884"
-4. added the code in app.py from i201884 and templates/index.js from i200760 from then commmit it with commands "git add ." "git commit -m "---" "
-5. pushed the code in i201884 and i200760 "git push origin branch_name"
-6. finally merge i201884 and i200760 with dev through these steps
-   - git checkout dev
-   - git merge i201884 and git mergere i200760
-7. Switch to text "git checkout test"
-8. Added test code and pushed to test 
+# MLOPs-Class-Activity-1_i200760_i201884
+
+### Git Commands
+
+1. First we initialized and created a github  repository with both team members as collabrators
+```bash
+git init
+git remote add origin [<repository_url>](https://github.com/Ahmed1282/MLOPs-Class-Activity-1.git)https://github.com/Ahmed1282/MLOPs-Class-Activity-1.git
+```
+2. Then we created two more branches i.e., dev and test in addition to the main branch. We created two additional branches for the two team members from the dev branch.
+```bash
+
+git checkout -b dev
+git checkout -b test
+git checkout -b i200760
+git checkout -b i201884
+```
+
+3. Both the team members staged and pushed the code in their respective branches.
+```bash
+git add .
+git commit -m "Commit message"
+git push origin i200760
+```
+4. Both team members merged their branches into the dev branch.
+```bash
+git checkout dev
+git merge i200760
+git commit -m "Merge <branch_name> into main"
+git push origin main
+```
+![Alt text](i200760.PNG)
+![Alt text](merging.PNG)
+
+
+
