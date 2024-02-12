@@ -5,7 +5,7 @@
 1. First we initialized and created a github  repository with both team members as collabrators
 ```bash
 git init
-git remote add origin [<repository_url>](https://github.com/Ahmed1282/MLOPs-Class-Activity-1.git)https://github.com/Ahmed1282/MLOPs-Class-Activity-1.git
+git remote add origin [<repository_url>](https://github.com/Ahmed1282/MLOPs-Class-Activity-1.git)https://github.com/Ahmed1282/mlop_class_task_1_i201884_and_i200760.git
 ```
 2. Then we created two more branches i.e., dev and test in addition to the main branch. We created two additional branches for the two team members from the dev branch.
 ```bash
